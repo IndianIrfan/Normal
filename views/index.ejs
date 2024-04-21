@@ -1,0 +1,76 @@
+<%- include('partials/start.ejs') %>
+  <div class="container1">
+    <div class="navbar">
+
+
+      <div class="logo">
+        <i class="fa-brands fa-markdown"></i>
+        <h1 class="protest-riot-regular">Markdown Editor</h1>
+      </div>
+
+
+      <div class="premium">
+        <button class="button-64" role="button"><span class="text"><a href="/premium" id="premium">Premium</a>
+            <i class="fa-solid fa-bolt"></i>
+          </span></button>
+
+
+        <div class="account">
+          <i class="fa-regular fa-user"></i>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="styles">
+      <button class="button-77" role="button">
+        <h2 class="head2 protest-riot-regular ">Default Styles <i class="fa-solid fa-chevron-down"></i></h2>
+      </button>
+      <button>
+        <h2 class="head2 protest-riot-regular ">Monaki Style<i class="fa-solid fa-chevron-down"></i></h2>
+      </button>
+      <button>
+        <h2 class="head2 protest-riot-regular ">Bluelight Night <i class="fa-solid fa-chevron-down"></i></h2>
+      </button>
+      <button>
+        <h2 class="head2 protest-riot-regular ">Grayday Night <i class="fa-solid fa-chevron-down"></i></h2>
+      </button>
+      <button>
+        <h2 class="head2 protest-riot-regular ">Other Styles <i class="fa-solid fa-chevron-down"></i></h2>
+      </button>
+    </div>
+    <div class="markdown">
+      <div class="container">
+        <div class="tabs-wrapper">
+          <button id="add">
+            <i class="fas fa-plus add-btn" onclick="addTextArea()"></i>
+          </button>
+          <div class="tabs-container" id="textAreas">
+          </div>
+        </div>
+        <div class="active-tab-wrapper">
+          <div class="active-tab-container" id="activeTextArea">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+  <%- include('partials/end.ejs') %>
